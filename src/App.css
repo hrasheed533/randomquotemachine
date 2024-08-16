@@ -1,38 +1,74 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 60, 0);
+  max-height: fit-content;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-bottom: 85px;
+  color: rgb(255, 60, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.quote-box {
+  width: 600px;
+  min-width: 500px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 35px;
+  max-height: fit-content;
+  min-height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  cursor: pointer;
+  background-color: rgb(255, 60, 0);
+  ;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+#text {
+  text-align: center;
+  margin: 5px;
+}
+
+#author {
+  text-align: right;
+}
+
+#new-quote {
+  float: right;
+  height: 40px;
+}
+
+.twitter {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.thumbler {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  border: none;
+  outline: none;
 }
